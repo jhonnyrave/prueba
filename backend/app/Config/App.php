@@ -24,7 +24,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://localhost/formulario_contacto/public/';
+    public $baseURL = 'http://localhost/formulario_contacto/backend/public/';
 
     /**
      * --------------------------------------------------------------------------

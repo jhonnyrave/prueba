@@ -23,7 +23,7 @@ class Contacto extends ResourceController{
             'nombre' => $this->request->getPost('nombre'),
             'apellido' => $this->request->getPost('apellido'),
             'correo' => $this->request->getPost('correo'),
-            'celular' => $this->request->getPost('celCont'),
+            'celular' => $this->request->getPost('celular'),
             'id_area' => $this->request->getPost('area'),
             'mensaje' => $this->request->getPost('mensaje')
         ];
@@ -34,10 +34,7 @@ class Contacto extends ResourceController{
             'messages' => [
                 'success' => 'Data Saved'
             ]
-        ];
-         
-        return $this->respond($response);
-        
+        ];    
+        return $this->respond($response);       
     }
-
 }

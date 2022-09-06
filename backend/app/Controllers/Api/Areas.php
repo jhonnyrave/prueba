@@ -8,12 +8,11 @@ use App\Models\AreaModel;
 class Areas extends ResourceController{
 
     use ResponseTrait;
-    // get all Areas
+
     public function index()
     {
         $model = new AreaModel();
         $data = $model->findAll();
         return $this->respond($data, 200);
     }
-
 }
