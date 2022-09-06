@@ -2,9 +2,9 @@
 
 En el repositorio se encuentra el desarrollo de la prueba que comprende los siguientes puntos:
 1. Diagrama Entidad - Relacion. (Backup DB app_evaluaciones en el directorio script)
-![Diagrama Entidad-Relacion](./frontend/public/diagramaER.png){width='100px'}
+![Diagrama Entidad-Relacion](./frontend/public/diagramaER.png)
 
-2. Query para obtener las calificaciones de los estudiantes con base a la DB del punto anterior.
+2. Query para obtener las calificaciones de los estudiantes con base a la DB del punto anterior (Script [bd_iridian.sql](./backend/script/bd_iridian.sql)).
 ```
 SELECT es.identificacion,es.nombre_estudiante,cu.nombre_curso ,ev.nombre_evaluacion, sum(re.calificacion_respuesta) as calificacion FROM evaluacion ev 
 inner join estudiante es on(ev.estudiante_id=es.id)
