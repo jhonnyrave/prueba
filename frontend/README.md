@@ -5,4 +5,4 @@ Formulario de contacto realizado con el framework React JS, el cual permmite env
 1. Clonar el proyecto con: git clone https://github.com/jhonnyrave/prueba.git
 2. Acceder al directorio frontend (cd ./frontend/)
 3. Ejecutar el comando **npm install** en la terminal
-4. Iniciar el servidor en el ambiente de desarrollo con el comando: **npm run dev**
+4. Iniciar el servidor en el ambiente de desarrollo con el comando: **npm start**
