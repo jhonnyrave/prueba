@@ -1,10 +1,10 @@
 # Prueba
 
 En el repositorio se encuentra el desarrollo de la prueba que comprende los siguientes puntos:
-1. Diagrama Entidad - Relacion. (Backup DB app_evaluaciones en el directorio script)
+1. Diagrama Entidad - Relacion. ([script DB](./backend/script/)).
 ![Diagrama Entidad-Relacion](./frontend/public/diagramaER.png)
 
-2. Query para obtener las calificaciones de los estudiantes con base a la DB del punto anterior (Directorio [script](./backend/script/)).
+2. Query para obtener las calificaciones de los estudiantes con base a la DB del punto anterior.
 
 ```
 SELECT es.identificacion,es.nombre_estudiante,cu.nombre_curso ,ev.nombre_evaluacion, sum(re.calificacion_respuesta) as calificacion FROM evaluacion ev 
